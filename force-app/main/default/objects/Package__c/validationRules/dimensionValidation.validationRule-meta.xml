@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>dimensionValidation</fullName>
+    <active>true</active>
+    <errorConditionFormula>(Package_Heigth__c  &lt;= 0 ) &amp;&amp;  (Package_Lenght__c   &lt;=  0 )  &amp;&amp; (Package_Weidth__c  &lt;= 0)</errorConditionFormula>
+    <errorMessage>Dimension of the package cannot be less or equal to 0.</errorMessage>
+</ValidationRule>

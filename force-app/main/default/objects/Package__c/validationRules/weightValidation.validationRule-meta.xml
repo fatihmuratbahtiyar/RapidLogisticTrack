@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>weightValidation</fullName>
+    <active>true</active>
+    <description>The weight of a package cannot be less or equal to 0.</description>
+    <errorConditionFormula>Weight_KG__c  &lt;= 0</errorConditionFormula>
+    <errorDisplayField>Weight_KG__c</errorDisplayField>
+    <errorMessage>The weight of a package cannot be less or equal to 0.</errorMessage>
+</ValidationRule>

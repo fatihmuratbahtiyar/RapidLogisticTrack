@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>inTransitValidation</fullName>
+    <active>true</active>
+    <description>the Actual Delivery Date cannot be before the date the Shipment Status was set to In-Transit.</description>
+    <errorConditionFormula>Actual_Delivery_Date__c   &lt;  In_transit_Date__c</errorConditionFormula>
+    <errorDisplayField>Actual_Delivery_Date__c</errorDisplayField>
+    <errorMessage>the Actual Delivery Date cannot be before the date the Shipment Status was set to In-Transit.</errorMessage>
+</ValidationRule>
